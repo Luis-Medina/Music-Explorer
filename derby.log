@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Thu Mar 12 19:54:48 BOT 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-014c-1069-743c-0000009a4958 
+on database directory D:\Mis Programas\Music Explorer\DB\MusicChecker  with class loader sun.misc.Launcher$AppClassLoader@17172ea 
+Loaded from file:/D:/Mis%20Programas/Music%20Explorer/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_05-b05
+user.dir=D:\Mis Programas\Music Explorer
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
