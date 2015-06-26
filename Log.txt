@@ -4954,3 +4954,13 @@ Jun 25, 2015 2:12:41 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
 INFO: Saving parser data
 Jun 25, 2015 2:12:41 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
 INFO: Parser data saved.
+Jun 26, 2015 12:29:54 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 26, 2015 12:29:54 PM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 26, 2015 12:29:54 PM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 26, 2015 12:29:54 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 26, 2015 12:29:54 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
