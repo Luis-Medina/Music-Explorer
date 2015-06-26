@@ -58,5 +58,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-DB
+DB/
 Log.txt*
