@@ -1,2 +1,2 @@
 # Music-Explorer
-Discover new music, powered by [HelloNZB](http://hellonzb.sourceforge.net/wp/).
+Java appliction for discovering new music, powered by [HelloNZB](http://hellonzb.sourceforge.net/wp/).
