@@ -63,7 +63,6 @@ public class VideoETAParse extends SwingWorker<ArrayList<Media>, Void> {
                 // Create a response handler
                 ResponseHandler<String> responseHandler = new BasicResponseHandler();
                 responseBody = httpclient.execute(httpget, responseHandler);
-                System.out.println("----------------------------------------");
             } catch (IOException ex) {
                 Main.getLogger().log(Level.SEVERE, null, ex);
                 String error = "Error processing VideoETA chart!" + "\n" + ex.toString();
@@ -137,7 +136,6 @@ public class VideoETAParse extends SwingWorker<ArrayList<Media>, Void> {
     @Override
     public void done() {
         ab.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
-        System.out.println("I'm done for VIDEOETA");
         Main.setStatus("");
         ArrayList<Media> mediaList;
         try {

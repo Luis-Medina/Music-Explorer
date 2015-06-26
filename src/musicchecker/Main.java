@@ -161,7 +161,12 @@ public class Main extends javax.swing.JFrame implements ClipboardOwner {
 
         localer = new StringLocaler();
         Locale.setDefault(localer.getLocale());
-        setLookAndFeel();
+        //setLookAndFeel();
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
         initComponents();
         errorsLabel.setVisible(false);
         createEditMenu();

@@ -63,12 +63,23 @@ public class BillboardAlbumParse extends SwingWorker<ArrayList<Media>, Void> {
             for (Element album : albums) {
                 String rank = album.select("span.this-week").text();
                 String title = album.select("div.row-title > h2").text();
-                String artist = album.select("div.row-title a").first().text();
+                String artist = null;
+                try{
+                    artist = album.select("div.row-title a").first().text();
+                }catch(Exception e){
+                    try{
+                        artist = album.select("div.row-title h3").first().text();
+                    }catch(Exception ex){
+                    }
+                }               
                 String weeksInChart = album.select("div.stats-weeks-on-chart span.value").text();
 
                 Media media = new Media(artist, title);
-                media.setRank(Integer.parseInt(rank));
                 media.setType(Media.ALBUM);
+                try{
+                     media.setRank(Integer.parseInt(rank));
+                }catch(Exception e){                
+                }            
                 try {
                     media.setWeeksOnChart(Integer.parseInt(weeksInChart));
                 } catch (Exception e) {
@@ -86,13 +97,14 @@ public class BillboardAlbumParse extends SwingWorker<ArrayList<Media>, Void> {
                 }
             }
 
-        } catch (IOException ex) {
+        } catch (Exception ex) {
             Main.getLogger().log(Level.SEVERE, null, ex);
             String error = "Error processing Billboard200 chart!" + "\n" + ex.toString();
             Utils.processParseError(error);
+        } finally{
+            return tempList;
         }
-
-        return tempList;
+    
     }
 
     @Override
@@ -102,9 +114,6 @@ public class BillboardAlbumParse extends SwingWorker<ArrayList<Media>, Void> {
         Main.setStatus("");
         try {
             mediaList = get();
-            for (Media m : mediaList) {
-                System.out.println(m);
-            }
             ArrayList<Media> newList = JDBC.checkDownloaded(mediaList);
             newList = JDBC.checkIgnored(newList);
             JDBC.addListToSearchQueue(newList);

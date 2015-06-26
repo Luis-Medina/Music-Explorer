@@ -3146,3 +3146,1811 @@ Mar 12, 2015 7:54:58 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
 INFO: Saving parser data
 Mar 12, 2015 7:54:58 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
 INFO: Parser data saved.
+Mar 12, 2015 8:44:43 PM musicchecker.pageInterpreters.EstereoTempoParser run
+SEVERE: null
+java.io.FileNotFoundException: http://estereotempo.lamusica.com/top10.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.EstereoTempoParser.run(EstereoTempoParser.java:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://estereotempo.lamusica.com/top10.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.EstereoTempoParser.run(EstereoTempoParser.java:54)
+	... 5 more
+
+Mar 12, 2015 8:44:46 PM musicchecker.pageInterpreters.LaMegaParser run
+SEVERE: null
+java.io.FileNotFoundException: http://lamegafm.lamusica.com/top10.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.LaMegaParser.run(LaMegaParser.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://lamegafm.lamusica.com/top10.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.LaMegaParser.run(LaMegaParser.java:53)
+	... 5 more
+
+Mar 12, 2015 8:44:46 PM musicchecker.pageInterpreters.Reggaeton94Parser run
+SEVERE: null
+java.io.FileNotFoundException: http://www.reggaeton947.com/top20.php
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.Reggaeton94Parser.run(Reggaeton94Parser.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://www.reggaeton947.com/top20.php
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.Reggaeton94Parser.run(Reggaeton94Parser.java:53)
+	... 5 more
+
+Mar 12, 2015 8:44:46 PM musicchecker.pageInterpreters.TocaDeToParser run
+SEVERE: null
+java.io.FileNotFoundException: http://www.hot102pr.com/Hot102/20Online.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.TocaDeToParser.run(TocaDeToParser.java:64)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://www.hot102pr.com/Hot102/20Online.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.TocaDeToParser.run(TocaDeToParser.java:55)
+	... 5 more
+
+Mar 12, 2015 8:44:51 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Mar 12, 2015 8:44:51 PM musicchecker.Main saveData
+INFO: Saving queue data
+Mar 12, 2015 8:44:51 PM musicchecker.Main saveData
+INFO: Queue data saved
+Mar 12, 2015 8:44:51 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Mar 12, 2015 8:44:51 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Mar 12, 2015 8:45:13 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Mar 12, 2015 8:45:13 PM musicchecker.Main saveData
+INFO: Saving queue data
+Mar 12, 2015 8:45:13 PM musicchecker.Main saveData
+INFO: Queue data saved
+Mar 12, 2015 8:45:13 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Mar 12, 2015 8:45:13 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Mar 13, 2015 11:16:14 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Mar 13, 2015 11:16:14 AM musicchecker.Main saveData
+INFO: Saving queue data
+Mar 13, 2015 11:16:14 AM musicchecker.Main saveData
+INFO: Queue data saved
+Mar 13, 2015 11:16:14 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Mar 13, 2015 11:16:14 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Mar 13, 2015 11:17:23 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Mar 13, 2015 11:17:23 AM musicchecker.Main saveData
+INFO: Saving queue data
+Mar 13, 2015 11:17:24 AM musicchecker.Main saveData
+INFO: Queue data saved
+Mar 13, 2015 11:17:24 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Mar 13, 2015 11:17:24 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Mar 15, 2015 11:53:49 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Mar 15, 2015 11:53:49 AM musicchecker.Main saveData
+INFO: Saving queue data
+Mar 15, 2015 11:53:50 AM musicchecker.Main saveData
+INFO: Queue data saved
+Mar 15, 2015 11:53:50 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Mar 15, 2015 11:53:50 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Mar 16, 2015 10:29:37 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Mar 16, 2015 10:29:37 PM musicchecker.Main saveData
+INFO: Saving queue data
+Mar 16, 2015 10:29:38 PM musicchecker.Main saveData
+INFO: Queue data saved
+Mar 16, 2015 10:29:38 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Mar 16, 2015 10:29:38 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 09, 2015 3:31:57 PM musicchecker.pageInterpreters.EstereoTempoParser run
+SEVERE: null
+java.io.FileNotFoundException: http://www.estereotempo.fm/top10.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.EstereoTempoParser.run(EstereoTempoParser.java:62)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://www.estereotempo.fm/top10.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.EstereoTempoParser.run(EstereoTempoParser.java:54)
+	... 5 more
+
+Apr 09, 2015 3:32:00 PM musicchecker.pageInterpreters.LaMegaParser run
+SEVERE: null
+java.io.FileNotFoundException: http://www.lamega.fm/top10.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.LaMegaParser.run(LaMegaParser.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://www.lamega.fm/top10.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.LaMegaParser.run(LaMegaParser.java:53)
+	... 5 more
+
+Apr 09, 2015 3:32:00 PM musicchecker.pageInterpreters.Reggaeton94Parser run
+SEVERE: null
+java.io.FileNotFoundException: http://www.reggaeton947.com/top20.php
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.Reggaeton94Parser.run(Reggaeton94Parser.java:61)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://www.reggaeton947.com/top20.php
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.Reggaeton94Parser.run(Reggaeton94Parser.java:53)
+	... 5 more
+
+Apr 09, 2015 3:32:00 PM musicchecker.pageInterpreters.TocaDeToParser run
+SEVERE: null
+java.io.FileNotFoundException: http://www.hot102pr.com/Hot102/20Online.html
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at musicchecker.pageInterpreters.TocaDeToParser.run(TocaDeToParser.java:64)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: http://www.hot102pr.com/Hot102/20Online.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getHeaderField(Unknown Source)
+	at musicchecker.pageInterpreters.TocaDeToParser.run(TocaDeToParser.java:55)
+	... 5 more
+
+Apr 09, 2015 3:36:34 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:36 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:38 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:38 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:39 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:39 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:40 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:40 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:41 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:42 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:42 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:43 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:57 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:58 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:36:59 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:37:00 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:37:01 PM musicchecker.pageInterpreters.BinsearchParse getResults
+SEVERE: null
+org.apache.http.client.HttpResponseException: Not Found
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:67)
+	at org.apache.http.impl.client.BasicResponseHandler.handleResponse(BasicResponseHandler.java:55)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:945)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:919)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:910)
+	at musicchecker.pageInterpreters.BinsearchParse.getResults(BinsearchParse.java:67)
+	at musicchecker.pageInterpreters.BinsearchParse.run(BinsearchParse.java:195)
+	at java.lang.Thread.run(Unknown Source)
+
+Apr 09, 2015 3:53:43 PM musicchecker.pageInterpreters.BillboardAlbumParse doInBackground
+SEVERE: null
+java.lang.NullPointerException
+	at musicchecker.pageInterpreters.BillboardAlbumParse.doInBackground(BillboardAlbumParse.java:66)
+	at musicchecker.pageInterpreters.BillboardAlbumParse.doInBackground(BillboardAlbumParse.java:28)
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:296)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at javax.swing.SwingWorker.run(SwingWorker.java:335)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+
+Apr 09, 2015 4:03:32 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 09, 2015 4:03:32 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 09, 2015 4:03:33 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 09, 2015 4:03:33 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 09, 2015 4:03:33 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 16, 2015 4:47:59 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 16, 2015 4:47:59 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 16, 2015 4:47:59 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 16, 2015 4:47:59 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 16, 2015 4:47:59 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 16, 2015 4:48:19 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 16, 2015 4:48:19 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 16, 2015 4:48:19 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 16, 2015 4:48:19 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 16, 2015 4:48:19 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 17, 2015 12:08:24 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 17, 2015 12:08:24 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 17, 2015 12:08:24 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 17, 2015 12:08:24 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 17, 2015 12:08:24 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 18, 2015 1:07:14 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 18, 2015 1:07:14 AM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 18, 2015 1:07:14 AM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 18, 2015 1:07:14 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 18, 2015 1:07:14 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 18, 2015 2:37:57 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 18, 2015 2:37:57 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 18, 2015 2:37:57 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 18, 2015 2:37:57 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 18, 2015 2:37:57 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 18, 2015 6:21:37 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:38 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:39 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:39 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:40 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:49 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:50 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:21:50 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.executeQuery(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:39)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 49 more
+Caused by: ERROR X0Y78: Statement.executeQuery() cannot be called with a statement that returns a row count.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	... 43 more
+
+Apr 18, 2015 6:22:05 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:38)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 53 more
+Caused by: ERROR 42X01: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 47 more
+
+Apr 18, 2015 6:22:06 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:38)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 53 more
+Caused by: ERROR 42X01: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 47 more
+
+Apr 18, 2015 6:22:06 PM musicchecker.JDBC doQuery
+SEVERE: null
+java.sql.SQLSyntaxErrorException: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at musicchecker.JDBC.doQuery(JDBC.java:38)
+	at musicchecker.DatabaseView.jButton2ActionPerformed(DatabaseView.java:149)
+	at musicchecker.DatabaseView.access$200(DatabaseView.java:16)
+	at musicchecker.DatabaseView$3.actionPerformed(DatabaseView.java:93)
+	at javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+	at javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+	at javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+	at java.awt.Component.processMouseEvent(Unknown Source)
+	at javax.swing.JComponent.processMouseEvent(Unknown Source)
+	at java.awt.Component.processEvent(Unknown Source)
+	at java.awt.Container.processEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+	at java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.awt.EventQueue$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.sql.SQLException: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 53 more
+Caused by: ERROR 42X01: Syntax error: Encountered "*" at line 1, column 8.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 47 more
+
+Apr 18, 2015 6:22:15 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 18, 2015 6:22:15 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 18, 2015 6:22:15 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 18, 2015 6:22:15 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 18, 2015 6:22:15 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 18, 2015 6:40:32 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 18, 2015 6:40:32 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 18, 2015 6:40:32 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 18, 2015 6:40:32 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 18, 2015 6:40:32 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 18, 2015 6:44:36 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 18, 2015 6:44:36 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 18, 2015 6:44:36 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 18, 2015 6:44:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 18, 2015 6:44:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 19, 2015 12:19:47 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 19, 2015 12:19:47 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 19, 2015 12:19:47 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 19, 2015 12:19:47 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 19, 2015 12:19:47 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 19, 2015 2:22:35 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 19, 2015 2:22:35 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 19, 2015 2:22:35 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 19, 2015 2:22:35 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 19, 2015 2:22:35 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 19, 2015 5:15:27 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 19, 2015 5:15:27 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 19, 2015 5:15:29 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 19, 2015 5:15:29 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 19, 2015 5:15:29 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 20, 2015 1:45:28 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 20, 2015 1:45:28 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 20, 2015 1:45:29 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 20, 2015 1:45:29 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 20, 2015 1:45:29 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 20, 2015 9:07:36 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 20, 2015 9:07:36 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 20, 2015 9:07:36 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 20, 2015 9:07:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 20, 2015 9:07:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 20, 2015 10:18:21 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 20, 2015 10:18:21 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 20, 2015 10:18:23 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 20, 2015 10:18:23 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 20, 2015 10:18:23 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 21, 2015 12:05:42 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 21, 2015 12:05:42 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 21, 2015 12:05:43 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 21, 2015 12:05:43 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 21, 2015 12:05:43 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 21, 2015 5:28:26 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 21, 2015 5:28:26 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 21, 2015 5:28:27 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 21, 2015 5:28:27 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 21, 2015 5:28:27 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 22, 2015 1:37:39 PM musicchecker.Main$ShutdownHook run
+WARNING: System sent the shutdown signal.
+ Closing app...
+Apr 22, 2015 3:44:22 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 22, 2015 3:44:22 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 22, 2015 3:44:22 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 22, 2015 3:44:22 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 22, 2015 3:44:22 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 22, 2015 6:35:13 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 22, 2015 6:35:13 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 22, 2015 6:35:14 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 22, 2015 6:35:14 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 22, 2015 6:35:14 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 23, 2015 12:33:58 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 23, 2015 12:33:58 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 23, 2015 12:33:58 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 23, 2015 12:33:58 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 23, 2015 12:33:58 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 23, 2015 6:13:39 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 23, 2015 6:13:39 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 23, 2015 6:13:40 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 23, 2015 6:13:40 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 23, 2015 6:13:40 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 24, 2015 12:42:34 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 24, 2015 12:42:34 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 24, 2015 12:42:35 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 24, 2015 12:42:35 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 24, 2015 12:42:35 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 24, 2015 6:30:57 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 24, 2015 6:30:58 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 24, 2015 6:30:59 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 24, 2015 6:30:59 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 24, 2015 6:30:59 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 24, 2015 7:16:03 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 24, 2015 7:16:03 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 24, 2015 7:16:03 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 24, 2015 7:16:03 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 24, 2015 7:16:03 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 25, 2015 12:02:39 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 25, 2015 12:02:39 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 25, 2015 12:02:40 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 25, 2015 12:02:40 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 25, 2015 12:02:40 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 25, 2015 1:07:49 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 25, 2015 1:07:49 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 25, 2015 1:07:51 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 25, 2015 1:07:51 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 25, 2015 1:07:51 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 26, 2015 12:14:10 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 26, 2015 12:14:10 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 26, 2015 12:14:11 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 26, 2015 12:14:11 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 26, 2015 12:14:11 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 26, 2015 12:23:08 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 26, 2015 12:23:08 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 26, 2015 12:23:09 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 26, 2015 12:23:09 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 26, 2015 12:23:09 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 26, 2015 5:21:14 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 26, 2015 5:21:14 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 26, 2015 5:21:15 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 26, 2015 5:21:16 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 26, 2015 5:21:16 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 27, 2015 1:08:42 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 27, 2015 1:08:43 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 27, 2015 1:08:46 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 27, 2015 1:08:46 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 27, 2015 1:08:46 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 27, 2015 6:36:23 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 27, 2015 6:36:23 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 27, 2015 6:36:23 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 27, 2015 6:36:23 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 27, 2015 6:36:23 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 27, 2015 7:27:25 PM musicchecker.Main$ShutdownHook run
+WARNING: System sent the shutdown signal.
+ Closing app...
+Apr 28, 2015 12:01:02 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 28, 2015 12:01:03 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 28, 2015 12:01:06 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 28, 2015 12:01:06 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 28, 2015 12:01:06 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 28, 2015 9:50:46 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 28, 2015 9:50:46 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 28, 2015 9:50:46 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 28, 2015 9:50:46 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 28, 2015 9:50:46 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 29, 2015 2:18:32 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 29, 2015 2:18:32 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 29, 2015 2:18:33 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 29, 2015 2:18:33 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 29, 2015 2:18:33 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 29, 2015 5:40:22 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 29, 2015 5:40:22 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 29, 2015 5:40:24 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 29, 2015 5:40:24 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 29, 2015 5:40:24 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 29, 2015 9:13:37 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 29, 2015 9:13:37 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 29, 2015 9:13:38 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 29, 2015 9:13:38 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 29, 2015 9:13:38 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Apr 30, 2015 12:30:35 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Apr 30, 2015 12:30:35 PM musicchecker.Main saveData
+INFO: Saving queue data
+Apr 30, 2015 12:30:36 PM musicchecker.Main saveData
+INFO: Queue data saved
+Apr 30, 2015 12:30:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Apr 30, 2015 12:30:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 01, 2015 12:41:28 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 01, 2015 12:41:28 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 01, 2015 12:41:28 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 01, 2015 12:41:28 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 01, 2015 12:41:28 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 01, 2015 2:55:13 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 01, 2015 2:55:13 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 01, 2015 2:55:14 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 01, 2015 2:55:14 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 01, 2015 2:55:14 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 02, 2015 4:03:36 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 02, 2015 4:03:36 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 02, 2015 4:03:36 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 02, 2015 4:03:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 02, 2015 4:03:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 02, 2015 7:55:29 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 02, 2015 7:55:29 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 02, 2015 7:55:29 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 02, 2015 7:55:29 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 02, 2015 7:55:29 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 03, 2015 8:28:37 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 03, 2015 8:28:37 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 03, 2015 8:28:37 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 03, 2015 8:28:37 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 03, 2015 8:28:37 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 04, 2015 2:01:23 PM musicchecker.Main$ShutdownHook run
+WARNING: System sent the shutdown signal.
+ Closing app...
+May 04, 2015 6:21:45 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 04, 2015 6:21:45 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 04, 2015 6:21:46 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 04, 2015 6:21:46 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 04, 2015 6:21:46 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 05, 2015 1:46:02 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 05, 2015 1:46:02 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 05, 2015 1:46:04 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 05, 2015 1:46:04 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 05, 2015 1:46:04 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 08, 2015 3:07:20 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 08, 2015 3:07:20 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 08, 2015 3:07:20 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 08, 2015 3:07:20 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 08, 2015 3:07:20 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 15, 2015 12:26:08 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 15, 2015 12:26:09 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 15, 2015 12:26:09 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 15, 2015 12:26:09 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 15, 2015 12:26:09 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 15, 2015 7:28:20 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 15, 2015 7:28:21 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 15, 2015 7:28:21 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 15, 2015 7:28:21 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 15, 2015 7:28:21 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 16, 2015 12:23:55 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 16, 2015 12:23:55 AM musicchecker.Main saveData
+INFO: Saving queue data
+May 16, 2015 12:23:55 AM musicchecker.Main saveData
+INFO: Queue data saved
+May 16, 2015 12:23:55 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 16, 2015 12:23:55 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 16, 2015 2:45:38 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 16, 2015 2:45:38 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 16, 2015 2:45:39 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 16, 2015 2:45:39 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 16, 2015 2:45:39 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 17, 2015 3:16:40 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 17, 2015 3:16:40 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 17, 2015 3:16:40 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 17, 2015 3:16:40 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 17, 2015 3:16:40 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 20, 2015 7:30:11 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 20, 2015 7:30:11 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 20, 2015 7:30:11 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 20, 2015 7:30:11 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 20, 2015 7:30:11 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 22, 2015 1:35:21 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 22, 2015 1:35:21 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 22, 2015 1:35:22 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 22, 2015 1:35:22 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 22, 2015 1:35:22 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 24, 2015 10:33:31 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 24, 2015 10:33:31 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 24, 2015 10:33:32 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 24, 2015 10:33:32 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 24, 2015 10:33:32 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 30, 2015 6:30:27 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 30, 2015 6:30:27 PM musicchecker.Main saveData
+INFO: Saving queue data
+May 30, 2015 6:30:27 PM musicchecker.Main saveData
+INFO: Queue data saved
+May 30, 2015 6:30:27 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 30, 2015 6:30:27 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+May 31, 2015 1:02:56 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+May 31, 2015 1:02:56 AM musicchecker.Main saveData
+INFO: Saving queue data
+May 31, 2015 1:02:56 AM musicchecker.Main saveData
+INFO: Queue data saved
+May 31, 2015 1:02:56 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+May 31, 2015 1:02:56 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 07, 2015 12:02:36 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 07, 2015 12:02:36 PM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 07, 2015 12:02:36 PM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 07, 2015 12:02:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 07, 2015 12:02:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 08, 2015 3:18:05 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 08, 2015 3:18:05 AM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 08, 2015 3:18:05 AM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 08, 2015 3:18:05 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 08, 2015 3:18:05 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 11, 2015 12:32:38 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 11, 2015 12:32:38 AM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 11, 2015 12:32:39 AM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 11, 2015 12:32:39 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 11, 2015 12:32:39 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 11, 2015 5:28:56 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 11, 2015 5:28:56 PM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 11, 2015 5:28:57 PM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 11, 2015 5:28:57 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 11, 2015 5:28:57 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 14, 2015 2:14:36 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 14, 2015 2:14:36 PM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 14, 2015 2:14:36 PM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 14, 2015 2:14:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 14, 2015 2:14:36 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 14, 2015 3:31:53 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 14, 2015 3:31:53 PM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 14, 2015 3:31:53 PM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 14, 2015 3:31:53 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 14, 2015 3:31:53 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 21, 2015 2:10:13 PM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 21, 2015 2:10:13 PM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 21, 2015 2:10:13 PM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 21, 2015 2:10:13 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 21, 2015 2:10:13 PM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
+Jun 25, 2015 2:12:39 AM musicchecker.Main doClose
+WARNING: Entered doClose routine: false
+Jun 25, 2015 2:12:39 AM musicchecker.Main saveData
+INFO: Saving queue data
+Jun 25, 2015 2:12:41 AM musicchecker.Main saveData
+INFO: Queue data saved
+Jun 25, 2015 2:12:41 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Saving parser data
+Jun 25, 2015 2:12:41 AM at.lame.hellonzb.HelloNzbCradle saveOpenParserData
+INFO: Parser data saved.
